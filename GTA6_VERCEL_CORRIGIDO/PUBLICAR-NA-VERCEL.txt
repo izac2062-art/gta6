@@ -1,0 +1,23 @@
+PASSO A PASSO — GTA 6 CREATOR PACK
+
+Este ZIP foi montado com index.html diretamente na raiz.
+
+MÉTODO RECOMENDADO (GitHub + Vercel):
+1. Extraia este ZIP.
+2. No repositório GitHub conectado ao projeto da Vercel, coloque TODOS estes arquivos diretamente na raiz do repositório:
+   index.html, styles.css, script.js, config.js, termos.html, privacidade.html, vercel.json e README.md.
+   Não envie a pasta externa GTA6_VERCEL_CORRIGIDO como uma subpasta dentro do repositório.
+3. Faça commit/push.
+4. Na Vercel, confirme que o projeto correto está conectado ao repositório correto.
+5. Settings > Build and Deployment:
+   - Framework Preset: Other
+   - Root Directory: ./
+   - Build Command: vazio/desativado (site HTML estático)
+   - Output Directory: ./
+6. Faça Redeploy do último commit e espere Ready.
+7. Teste o domínio principal e também /index.html.
+
+Se continuar 404 mesmo com esses arquivos na raiz, a causa provavelmente é a configuração/conexão do projeto na Vercel, não o HTML. Verifique se gta6-puce-six.vercel.app pertence ao projeto que acabou de publicar.
+
+CHECKOUT:
+Os links da Kiwify ainda precisam ser preenchidos em config.js após criar os produtos.
